@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
 });
 
 
-app.listen(3000, function() {
-    console.log('Magic is happening on port 3000!');
+
+var port = 8080;
+var host = 'APP_PRIVATE_IP_ADDRESS';
+
+app.listen(port, host, function() {
+    console.log(`Magic is happening on ${host}:${port}`);
 });
