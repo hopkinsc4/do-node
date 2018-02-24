@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
 });
 
 
-app.listen(3000, function() {
+app.listen(80, function() {
     console.log('Magic is happening on port 3000!');
 });
